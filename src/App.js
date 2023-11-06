@@ -1,12 +1,10 @@
 import './App.css';
-import Header from "./components/Header/Header";
-import ClassCounter from "./components/ClassCounter/ClassCounter";
+import Counter from "./components/UserContainer/Counter";
 
 function App() {
     return (
         <>
-            <Header/>
-            <ClassCounter/>
+            <Counter/>
         </>
     );
 }
